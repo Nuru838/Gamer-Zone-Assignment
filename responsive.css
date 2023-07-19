@@ -1,9 +1,13 @@
 @media screen and (max-width: 576px) {
-    .nav-container, .nav-content, .nav-content ul{
+    .nav-container, .nav-content, .nav-content ul, .banner-container, .gamer-container{
         flex-direction: column;
         margin: 0 auto;
         width: 100%;
 
+    }
+    main{
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .nav-content li{
         padding-top: 5px;
@@ -12,5 +16,63 @@
     .nav-logo{
         width: 100%;
         justify-content: center;
+    }
+    .banner-content h2 {
+        font-size: 2.5rem;
+        
+    }
+    .banner-content h1 {
+        font-size: 4rem;
+    }
+    .banner-content p {
+        font-size: 0.8rem;
+    }
+    .sign-in-btn {
+        padding: 21px 40px;
+        border-radius: 48px;
+        font-size: 1rem;
+    }
+    .go-rogue-btn {
+        display: inline-flex;
+        padding: 20px 30px;
+        border-radius: 48px;
+        font-size: 1rem;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: left;
+        padding-left: 15px;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .banner-img img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .gamer-container img {
+        width: 100%;
+    }
+    .gamer-container {
+        align-items: center;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    .gamer-title {
+        width: 300px;
+        font-size: 30px;
+        margin: 0 auto;
+    }
+    .gamer-container .gamer-description {
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .gamer-container .unleash-container{
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    .gamer-purpose {
+        width: 320px;
     }
 }
