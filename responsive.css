@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+    .nav-container, .nav-content, .nav-content ul{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    .nav-content li{
+        padding-top: 5px;
+        margin-bottom: 15px;
+    }
+    .nav-logo{
+        width: 100%;
+        justify-content: center;
+    }
+}
