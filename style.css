@@ -172,14 +172,14 @@ main {
     align-items: center;
     text-align: right;
     margin-top: 70px;
-    margin-right: 100px;
     margin-bottom: 60px;
 }
-
-.gamer-container img {
-    width: 60%;
+.gamer-img img{
+    width: 100%;
 }
-
+.gamer-content{
+    width: 50%;
+}
 .gamer-title {
     font-size: 3rem;
     font-weight: 700;
@@ -206,9 +206,114 @@ main {
     line-height: 45px;
 }
 
-.gamer-container .unleash-container{
+.gamer-container .unleash-container {
     color: #534C64;
     font-size: 2rem;
     font-weight: 700;
     line-height: 45px;
+}
+
+/* online game funny videos section style  */
+.online-game-content {
+    text-align: center;
+}
+
+.online-game-title {
+    color: #0B0223;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.online-game-description {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    margin-right: 50px;
+}
+
+.card-container img {
+    width: 250px;
+    height: 300px;
+}
+
+.card-1 {
+    width: 200px;
+    height: 250px;
+}
+
+.card-2 {
+    width: 200px;
+    height: 250px;
+}
+
+.card-3 {
+    width: 200px;
+    height: 250px;
+}
+
+.card-4 {
+    width: 200px;
+    height: 250px;
+}
+
+.card-description {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* Play games section stye  */
+.play-games-container {
+    margin-top: 250px;
+    display: flex;
+}
+
+.play-img-container {
+    width: 50%;
+}
+
+.play-img-container img {
+    height: 80%;
+    width: 600px;
+}
+
+.bottom-img img {
+    width: 250px;
+    height: 300px;
+}
+
+.bottom-img {
+    position: relative;
+    bottom: 220px;
+    left: 450px;
+}
+
+.play-games-content {
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 250px;
+}
+
+.play-games-title {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-games-description{
+    margin-top: 15px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
