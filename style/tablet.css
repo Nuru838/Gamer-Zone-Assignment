@@ -1,0 +1,94 @@
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .nav-container, .nav-content, .nav-content ul, .card-container{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .banner-container, .play-games-container, .gamer-container{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .nav-logo{
+        width: 100%;
+        justify-content: center;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .banner-img img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: left;
+    }
+    .gamer-container img {
+        width: 100%;
+    }
+    .gamer-container {
+        align-items: center;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    .gamer-title {
+        width: 100%;
+        font-size: 2.7rem;
+    }
+    .gamer-content{
+        width: 100%;
+    }
+    .gamer-container .gamer-description {
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .gamer-container .unleash-container{
+        font-size: 1.2rem;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+    .gamer-purpose {
+        width: 100%;
+        justify-content: center;
+    }
+    .online-game-title {
+        font-size: 2.5rem;
+    }
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card-3 {
+        margin-top: 120px;
+    }
+    .card-4 {
+        margin-top: 120px;
+    }
+    .play-img-container {
+        width: 60%;
+    }
+    .play-games-content {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .play-games-title{
+        text-align: center;
+    }
+    .play-games-description{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-logo{
+        padding: 10px 20px;
+    }
+    .footer-pages ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-varous-pages-container ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

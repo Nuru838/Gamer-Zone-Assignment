@@ -61,7 +61,7 @@ main {
     align-items: center;
 }
 
-.nav-content li a{
+.nav-content li a {
     text-decoration: none;
     color: #3C354F;
     text-align: center;
@@ -69,6 +69,7 @@ main {
     font-weight: 500;
     margin-right: 10px;
 }
+
 .nav-content p {
     color: #3C354F;
     font-size: 1.2rem;
@@ -250,42 +251,34 @@ main {
 .card-1 {
     width: 200px;
     height: 250px;
-}
-
-.card-2 {
-    width: 200px;
-    height: 250px;
-}
-
-.card-3 {
-    width: 200px;
-    height: 250px;
     position: relative;
-    display: inline-block;
 }
-.card-3 img{
-    display: block;
-}
-.play-icon{
-    color: rgb(253, 5, 46);
+.play-icon {
+    color: white;
     font-size: 2.3rem;
 }
-.overlay{
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 125%;
+    height: 120%;
+    border: 3px solid red;
+    background: black;
+    border-radius: 8px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
-.card-3:hover .overlay{
-    opacity: 1;
+
+.card-1:hover .overlay {
+    opacity: 0.8;
 }
-.card-effect{
+
+.card-effect {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    left: 30%;
     transition: translate(-50%, -50%);
     color: rgb(5, 247, 5);
     font-size: 1rem;
@@ -294,12 +287,141 @@ main {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
-.card-3:hover .card-effect{
-    opacity: 1;
+
+.card-1:hover .card-effect {
+    opacity: 0.8;
 }
+
+.card-2 {
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+.play-icon {
+    color: white;
+    font-size: 2.3rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125%;
+    height: 120%;
+    border: 3px solid red;
+    background: black;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-2:hover .overlay {
+    opacity: 0.8;
+}
+
+.card-effect {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transition: translate(-50%, -50%);
+    color: rgb(5, 247, 5);
+    font-size: 1rem;
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-2:hover .card-effect {
+    opacity: 0.8;
+}
+
+.card-3 {
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+.play-icon {
+    color: white;
+    font-size: 2.3rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125%;
+    height: 120%;
+    border: 3px solid red;
+    background: black;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-3:hover .overlay {
+    opacity: 0.8;
+}
+
+.card-effect {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transition: translate(-50%, -50%);
+    color: rgb(5, 247, 5);
+    font-size: 1rem;
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-3:hover .card-effect {
+    opacity: 0.8;
+}
+
 .card-4 {
     width: 200px;
     height: 250px;
+    position: relative;
+}
+.play-icon {
+    color: white;
+    font-size: 2.3rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125%;
+    height: 120%;
+    border: 3px solid red;
+    background: black;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-4:hover .overlay {
+    opacity: 0.8;
+}
+
+.card-effect {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transition: translate(-50%, -50%);
+    color: rgb(5, 247, 5);
+    font-size: 1rem;
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-4:hover .card-effect {
+    opacity: 0.8;
 }
 
 .card-description {
@@ -419,6 +541,7 @@ main {
 
 .ft-gamer-g {
     color: #FF42A5;
+    padding-left: 10px;
 }
 
 .footer-pages ul {
@@ -471,273 +594,3 @@ main {
     font-weight: 500;
     margin-top: 20px;
 }
-
-/* Responsive for Mobile Device  */
-@media screen and (max-width: 576px) {
-    .nav-container, .nav-content, .nav-content ul, .card-container{
-        flex-direction: column;
-        margin: 0 auto;
-        width: 100%;
-
-    }
-    .banner-container, .play-games-container, .gamer-container{
-        flex-direction: column-reverse;
-        margin: 0 auto;
-        width: 100%;
-
-    }
-    main{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .nav-content li{
-        padding-top: 5px;
-        margin-bottom: 15px;
-    }
-    .nav-logo{
-        width: 100%;
-        justify-content: center;
-    }
-    .banner-content h2 {
-        font-size: 2.5rem;
-        
-    }
-    .banner-content h1 {
-        font-size: 4rem;
-    }
-    .banner-content p {
-        font-size: 0.8rem;
-    }
-    .sign-in-btn {
-        padding: 21px 40px;
-        border-radius: 48px;
-        font-size: 1rem;
-    }
-    .go-rogue-btn {
-        display: inline-flex;
-        padding: 20px 30px;
-        border-radius: 48px;
-        font-size: 1rem;
-    }
-    .banner-content{
-        width: 100%;
-        text-align: left;
-    }
-    .banner-img {
-        width: 100%;
-    }
-    .banner-img img{
-        margin-top: 20px;
-        width: 100%;
-    }
-    .gamer-container img {
-        width: 100%;
-    }
-    .gamer-container {
-        align-items: center;
-        text-align: center;
-        margin-top: 70px;
-        margin-bottom: 50px;
-    }
-    .gamer-title {
-        width: 100%;
-        font-size: 2.7rem;
-    }
-    .gamer-content{
-        width: 100%;
-    }
-    .gamer-container .gamer-description {
-        font-size: 10px;
-        margin: 0 auto;
-    }
-    .gamer-container .unleash-container{
-        font-size: 1.2rem;
-        line-height: 30px;
-        margin: 0 auto;
-    }
-    .online-game-description{
-        margin-top: 30px;
-        margin-bottom: 50px;
-    }
-    .gamer-purpose {
-        width: 100%;
-        justify-content: center;
-    }
-    .card-1{
-        margin-left: 30px;
-        margin-bottom: 160px;
-    }
-    .card-2{
-        margin-left: 30px;
-        margin-bottom: 160px;
-    }
-    .card-3{
-        margin-left: 30px;
-        margin-bottom: 160px;
-    }
-    .card-4{
-        margin-left: 30px;
-        margin-bottom: 160px;
-    }
-    .play-img-container{
-        margin-top: 30px;
-        width: 100%;
-        height: 400px;
-        margin: 0 auto;
-    }
-    .play-img-container img {
-        height: 60%;
-        width: 280px;
-    }
-    .bottom-img img {
-        width: 50%;
-        /* width: 150px; */
-        height: 200px;
-        position: absolute;
-    }
-    
-    .bottom-img {
-        position: relative;
-        bottom: 135px;
-        left: 150px;
-    }
-    
-    .play-games-content {
-        width: 100%;
-        margin-left: 0px;
-        margin-top: 0px;
-        margin: 0 auto;
-    }
-    .play-games-title {
-        font-size: 2rem;
-        text-align: center;
-        line-height: normal;
-        width: 100%;
-    }
-    .play-games-description{
-        text-align: center;
-        line-height: normal;
-        margin-bottom: 30px;
-    }
-    .first-action-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .action-game {
-        width: 100%;
-        margin-top: 10px;
-    }
-    .second-action-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .footer-logo{
-        padding: 10px 18px;
-    }
-    .footer-pages ul {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .footer-varous-pages-container ul {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Responsive for Tablet or medium devices  */
-@media screen and (min-width: 576px) and (max-width: 960px) {
-    .nav-container, .nav-content, .nav-content ul, .card-container{
-        flex-direction: column;
-        margin: 0 auto;
-        width: 100%;
-    }
-    .banner-container, .play-games-container, .gamer-container{
-        flex-direction: column-reverse;
-        margin: 0 auto;
-        width: 100%;
-    }
-    .nav-logo{
-        width: 100%;
-        justify-content: center;
-    }
-    .banner-img {
-        width: 100%;
-    }
-    .banner-img img{
-        margin-top: 20px;
-        width: 100%;
-    }
-    .banner-content{
-        width: 100%;
-        text-align: left;
-    }
-    .gamer-container img {
-        width: 100%;
-    }
-    .gamer-container {
-        align-items: center;
-        text-align: center;
-        margin-top: 70px;
-        margin-bottom: 50px;
-    }
-    .gamer-title {
-        width: 100%;
-        font-size: 2.7rem;
-    }
-    .gamer-content{
-        width: 100%;
-    }
-    .gamer-container .gamer-description {
-        font-size: 10px;
-        margin: 0 auto;
-    }
-    .gamer-container .unleash-container{
-        font-size: 1.2rem;
-        line-height: 30px;
-        margin: 0 auto;
-    }
-    .gamer-purpose {
-        width: 100%;
-        justify-content: center;
-    }
-    .online-game-title {
-        font-size: 2.5rem;
-    }
-    .card-container {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .card-3 {
-        margin-top: 120px;
-    }
-    .card-4 {
-        margin-top: 120px;
-    }
-    .play-img-container {
-        width: 60%;
-    }
-    .play-games-content {
-        width: 100%;
-        margin-left: 0px;
-    }
-    .play-games-title{
-        text-align: center;
-    }
-    .play-games-description{
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .footer-logo{
-        padding: 10px 20px;
-    }
-    .footer-pages ul {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .footer-varous-pages-container ul {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* The End of Era  */
